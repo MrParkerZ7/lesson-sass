@@ -5,3 +5,8 @@
 .contact {
    @include flexCenter(row, gray);
 }
+
+.third_contact {
+   @extend header;
+   background: greenyellow;
+}
