@@ -1,0 +1,29 @@
+@import "./variables";
+
+@mixin flexCenter($direction, $background) {
+   display: flex;
+   height: 50vh;
+   justify-content: center;
+   align-items: center;
+   flex-direction: $direction;
+   background: $background;
+}
+
+header {
+   @include flexCenter(column, skyblue);
+   background: lightblue;
+   height: 25vh;
+   color: $textColor;
+
+   button {
+      background: $primaryBtn;
+
+      &::after {
+         content: "HOLY NOVA"
+      }
+
+      &::hover {
+         background: green;
+      }
+   }
+}

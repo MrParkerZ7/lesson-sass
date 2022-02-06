@@ -1,0 +1,23 @@
+{
+  "name": "training-sass",
+  "version": "1.0.0",
+  "description": "Tutorial : [Link](https://www.youtube.com/watch?v=Zz6eOVaaelI&t=1s)",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrParkerZ7/training-sass.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrParkerZ7/training-sass/issues"
+  },
+  "homepage": "https://github.com/MrParkerZ7/training-sass#readme",
+  "dependencies": {
+    "node-scss": "^7.0.3",
+    "sass": "^1.49.7"
+  }
+}
